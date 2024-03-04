@@ -7,7 +7,7 @@ This project aims to deepen C programming concepts, introduce assert.h for state
 
 ### Some interesting functions of this project 
 
-[Multiples](ADS-C-Project-4/multiplos.c) 
+[Multiples](multiplos.c) 
 
 [Array swap](ADS-C-Project-4/intercambio_arreglos2.c)
 

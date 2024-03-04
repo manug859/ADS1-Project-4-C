@@ -9,6 +9,6 @@ This project aims to deepen C programming concepts, introduce assert.h for state
 
 [Multiples](multiplos.c) 
 
-[Array swap](ADS-C-Project-4/intercambio_arreglos2.c)
+[Array swap](intercambio_arreglos2.c)
 
-[Minimums](ADS-C-Project-4/minimos.c)
+[Minimums](minimos.c)

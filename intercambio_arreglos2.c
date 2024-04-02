@@ -28,18 +28,11 @@ void intercambiar(int tam, int a[], int i, int j) {
 }
 
 void imprimir_arreglo(int tam, int a[]) {
-    printf("[");  // Agregar un corchete de apertura al principio
-
-    for (int i = 0; i < tam; ++i) {
-        printf("%d", a[i]);
-
-        // Imprimir coma y espacio si no es el último elemento
-        if (i < tam - 1) {
-            printf(", ");
-        }
-    }
-
-    printf("]\n");  // Agregar un corchete de cierre al final
+  int i = 0;
+  while(i<tam) {
+    printf("\nEl valor de la posicion %d es = %d\n", i, a[i]);
+    i=i+1;
+  }
 }
 
 int main(void) {

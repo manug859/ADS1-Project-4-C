@@ -13,7 +13,7 @@ int i = 0;
 void imprimir_arreglo(int n_max, int a[]) {
 int i = 0;
   while (i<n_max) {
-    printf("En el indice a[%d] el numero es = %d; \n", i, a[i]);
+    printf("En el indice a[%d] el numero es = %d \n", i, a[i]);
     i=i+1;
   }
 }

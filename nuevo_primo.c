@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include <assert.h>
+
 
 int pedir_entero(char nombre) {
     int x;
@@ -37,15 +39,10 @@ return numero_primo;
 }
 
 int main(void) {
-    int num0 = pedir_entero('x');
-        if(num0<=0) {
-            printf("Error. Ingrese un numero entero no negativo \n");
-            num0 = pedir_entero('x');
-        }
-        
-
-    int res = nesimo_primo(num0);
-
-        printf("El primo numero %d es = %d", num0, res);
+    int num = pedir_entero('x');
+    bool menor = true;
+    assert(x>=0);
+    int res = nesimo_primo(num);
+    printf("El primo numero %d es = %d", num, res);
 return 0;
 }

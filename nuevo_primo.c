@@ -40,7 +40,6 @@ return numero_primo;
 
 int main(void) {
     int num = pedir_entero('x');
-    bool menor = true;
     assert(x>=0);
     int res = nesimo_primo(num);
     printf("El primo numero %d es = %d", num, res);

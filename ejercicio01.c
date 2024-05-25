@@ -8,18 +8,18 @@ int pedir_entero(char name) {
 return entero;
 }
 
-int hola_hasta(int n) {
-    assert(n>0);
-    while(n>0) {
+int hola_hasta(int x) {
+    while(x>0) {
         printf("Hola\n");
-        n--;
+        x--;
     }
-return n;
+return x;
 }
 
 int main(void) {
-    int n;
-    n = pedir_entero('n');
-    hola_hasta(n);
+    int x;
+    x = pedir_entero('x');
+    assert(x>0);
+    hola_hasta(x);
 return 0;
 }
